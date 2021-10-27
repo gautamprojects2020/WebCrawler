@@ -42,8 +42,8 @@ class WebCrawler:
         return raw_html
 
 
-if __name__ == '__main__':
 
-    crawler = WebCrawler()
-    crawler.crawl('https://www.python.org')
+
+crawler = WebCrawler()
+crawler.crawl('https://www.python.org')
 
